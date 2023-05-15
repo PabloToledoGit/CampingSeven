@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Quicksand:wght@600&display=swap');
+
 
 
 :root{
@@ -6,9 +8,10 @@
     --cor-primaria: #EDF1D6 ;
     --cor-secundaria: #609966 ;
     --cor-terciaria: #40513B ;
+    --cor-4: #171d15 ;
     --hover: #9DC08B ;
 
-    --fonte-primaria: 'Prompt', sans-serif;
+    --fonte-primaria: 'Quicksand', sans-serif;
 }
 
 *{
@@ -24,6 +27,7 @@ body{
     height: 100vh;
     box-sizing: border-box;
     font-family: var(--fonte-primaria);
+    background: var(--cor-4);
 }
 
 .corpo__conteudo{
@@ -38,9 +42,11 @@ body{
 .corpo__conteudo__titulo{
 
     font-size: 4rem;
-    color: var(--cor-secundaria);
-    padding: 1rem ;    
+    color: var(--cor-primaria);
+    background: var(--cor-terciaria);
+    padding: .5rem 1.5rem ;    
     text-decoration: none;
-    border: 4px solid var(--cor-terciaria);
-    border-radius: 40px;
+    border-radius: 3rem;
+    box-shadow:  10px 5px 5px rgb(1, 10, 1);
+    margin-top: 10px;
 }
