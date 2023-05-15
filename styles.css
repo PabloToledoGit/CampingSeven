@@ -1,0 +1,22 @@
+:root{
+
+    --cor-primaria: #EDF1D6 ;
+    --cor-secundaria: #609966 ;
+    --cor-terciaria: #40513B ;
+    --hover: #9DC08B ;
+}
+
+*{
+    margin: 0;
+    padding:0;
+  
+    
+}
+
+body{
+
+    background-color: var(--cor-primaria) ;
+    color: var(--cor-terciaria);
+    height: 100vh;
+    box-sizing: border-box;
+}
