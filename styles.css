@@ -1,17 +1,19 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Prompt&family=Quicksand:wght@600&display=swap');
 
 
 
 :root{
 
-    --cor-primaria: #EDF1D6 ;
-    --cor-secundaria: #609966 ;
-    --cor-terciaria: #40513B ;
-    --cor-4: #171d15 ;
+    --cor-primaria: #f6f6f6 ;
+    --cor-secundaria: #088395 ;
+    --cor-terciaria: #3E432E ;
+    --cor-4: #939B62 ;
     --hover: #9DC08B ;
 
     --fonte-primaria: 'Quicksand', sans-serif;
+    --fonte-secundaria:'Montserrat', sans-serif;
+    --fonte-terciaria:'Prompt', sans-serif;
+
 }
 
 *{
@@ -33,7 +35,7 @@ body{
 .corpo__conteudo{
 
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
    padding-top: 1rem;
    padding-bottom: 1rem;
    border-radius: 2rem;
@@ -44,20 +46,24 @@ body{
 
 .corpo__conteudo__titulo{
 
-    font-size: 4rem;
+    font-size: 2rem;
     color: var(--cor-primaria);
-    background: var(--cor-terciaria);
     padding: .5rem 1.5rem ;    
     text-decoration: none;
-    border-radius: 3rem;
-    box-shadow:  10px 5px 5px rgb(1, 10, 1);
+    border-radius: 1rem;
+    /*box-shadow:  10px 5px 5px rgb(1, 10, 1);*/
+    font-family: var(--fonte-secundaria);
+    margin-left: 12rem;
+    border: 3px solid var(--cor-primaria);
     
 
 }
 
+
 .corpo__conteudo__foto{
 
     width: 400px;
+    border: 3px solid var(--cor-primaria);
 }
 
 .corpo__conteudo__apresentacao{
@@ -78,6 +84,7 @@ body{
     margin-left: 12rem;
     margin-top: 7rem;
     gap: 10rem;
+    margin-right: 12rem ;
 }
 
 .rodape{
@@ -87,15 +94,28 @@ body{
     justify-content: center;
     background-color: var(--cor-terciaria);
     margin-top: 5rem;
+    border: 1px solid var(--cor-primaria);
+    gap: 8rem;
 
 }
 
 .corpo__rodape__link{
 
+    display: flex;
     font-size: 20px;
     text-decoration: none;
     font-family: var(--fonte-primaria);
     color: var(--cor-primaria);
-    
+    border: 2px solid var(--cor-primaria);
+    padding: 1rem;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
+}
+
+.corpo__rodape__img{
+
+    width: 25px;
 }
