@@ -50,3 +50,28 @@ body{
     box-shadow:  10px 5px 5px rgb(1, 10, 1);
     margin-top: 10px;
 }
+
+.corpo__conteudo__foto{
+
+    width: 400px;
+}
+
+.corpo__conteudo__apresentacao{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.corpo__conteudo__texto{
+
+       margin-left: 3.5rem;
+}
+
+.corpo__conteudo__imagens{
+
+    display: flex;
+    margin-left: 11rem;
+    margin-top: 7rem;
+    gap: 10rem;
+}
