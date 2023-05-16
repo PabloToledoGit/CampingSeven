@@ -34,7 +34,10 @@ body{
 
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   border-radius: 2rem;
+
    
     
 }
@@ -48,7 +51,8 @@ body{
     text-decoration: none;
     border-radius: 3rem;
     box-shadow:  10px 5px 5px rgb(1, 10, 1);
-    margin-top: 10px;
+    
+
 }
 
 .corpo__conteudo__foto{
@@ -71,7 +75,27 @@ body{
 .corpo__conteudo__imagens{
 
     display: flex;
-    margin-left: 11rem;
+    margin-left: 12rem;
     margin-top: 7rem;
     gap: 10rem;
+}
+
+.rodape{
+
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    background-color: var(--cor-terciaria);
+    margin-top: 5rem;
+
+}
+
+.corpo__rodape__link{
+
+    font-size: 20px;
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-primaria);
+    
+
 }
