@@ -78,7 +78,7 @@ body{
 
 .corpo__conteudo__texto{
 
-       margin-left: 3.5rem;
+       
 }
 
 .corpo__conteudo__imagens{
@@ -214,6 +214,14 @@ body{
         
        }
 
+}
+
+@media (max-width:414px){
+
+    .corpo__conteudo__apresentacao{
+
+        flex-direction: column;
+    }
 }
 
     
