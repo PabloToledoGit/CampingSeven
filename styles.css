@@ -72,12 +72,14 @@ body{
 .corpo__conteudo__apresentacao{
 
     display: flex;
+    
 
     
 }
 
 .corpo__conteudo__texto{
 
+       font-family: var(--fonte-terciaria);
        
 }
 
@@ -88,6 +90,7 @@ body{
     margin-top: 7rem;
     gap: 10rem;
     margin-right: 12rem ;
+    
   
    
 }
@@ -124,6 +127,9 @@ body{
 
     width: 25px;
 }
+
+
+
 
 @media (max-width:1350px){
 
@@ -167,6 +173,7 @@ body{
         gap:2rem;
         margin-left: 2rem;
         margin-top: 2rem;
+       
 
 
    }
@@ -199,8 +206,8 @@ body{
 @media (min-width:2560px){ 
 
     .corpo__conteudo__imagens{
-      justify-content: center;
-
+      justify-content: center; 
+      
     }
 }
 
@@ -221,7 +228,16 @@ body{
     .corpo__conteudo__apresentacao{
 
         flex-direction: column;
+        justify-content: center;
     }
+
+    .corpo__conteudo__imagens{
+
+        margin: 5.3rem;
+    }
+
+    
+
 }
 
     
