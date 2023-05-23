@@ -1,0 +1,57 @@
+:root{
+
+    --cor-de-fundo: #C4C4C4;
+    --cor-branca-padrao: #FFFFFF;
+    --cor-dos-topos: #002F52;
+    --cor-letra-padrao:#002F52;
+    --cor-letra-2: #ffffff;
+}
+
+body{
+
+    background-color: var(--cor-de-fundo);
+    height: 100vh;
+    color: var(--cor-letra-padrao) ;
+    box-sizing: border-box;
+}
+
+
+.cabecalho{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.cabecalho__nav{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    width: 100%;
+    background-color: var(--cor-branca-padrao);
+    position: absolute;
+    gap: 3rem;
+    border-bottom: 0.2rem solid var(--cor-dos-topos);
+        
+    
+}
+
+.cabecalho__nav__imagem{
+
+    width: 5rem;
+    margin: 0rem 1rem 0rem 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
