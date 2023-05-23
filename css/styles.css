@@ -7,6 +7,7 @@
     --cor-dos-topos: #002F52;
     --cor-letra-padrao:#002F52;
     --cor-letra-2: #ffffff;
+    --cor-letra3:#EB9B00;
 
     --font-padrao:'Poppins', sans-serif;
 }
@@ -96,7 +97,24 @@ body{
 
 .corpo__apresentacao__paragrafo2{
 
-    margin-top:0.5rem;
+    text-align:justify;
+    font-family: var(--font-padrao);
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 0.7rem;
+}
+
+.corpo__meio{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-branca-padrao);
+    padding: 1rem;
+    color: var(--cor-letra3);
+    font-family: var(--font-padrao);
+    font-weight: 700;
+    font-size: 18px;
 }
 
 
