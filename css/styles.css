@@ -213,6 +213,22 @@ body{
 
 }
 
+.praia_demo{
+
+    margin-left: 0.8rem;
+}
+
+.titulo__footer{
+
+    color: var(--cor-letra3);
+    font-family: var(--font-padrao);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px;
+}
+
 
 
 
