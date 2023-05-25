@@ -52,12 +52,14 @@ body{
 .cabecalho__nav__links{
 
     text-decoration: none;
-    color: var(--cor-letra-padrao);
+    color: var(--cor-branca-padrao);
     font-family: var(--font-padrao);
     font-size: 1.2rem;
     padding: 4px;
     border: 2px solid var(--cor-dos-topos);
     border-radius: 10px;
+    background-color: var(--cor-dos-topos);
+    
 }
 
 .cabecalho__nav__links:active{
@@ -79,9 +81,10 @@ body{
 
 .corpo__apresentacao__titulo{
 
-    font-weight: 700;
-    font-size: 1rem;
     font-family: var(--font-padrao);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
     margin-bottom: 1rem;
     
 }
