@@ -124,10 +124,12 @@ body{
     background-color: var(--cor-branca-padrao);
     padding-top: 2rem;
     margin:1.5rem 1.2rem;
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
     align-items: center;
     gap:1rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 1rem;
+    
     
 }
 
@@ -142,10 +144,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     
 }   
 
-.corpo__meio2__imagem{
+.corpo__meio2__container2__imagem{
 
     width: 9rem;
     border:3px solid var(--cor-letra-padrao) ;
@@ -171,11 +174,41 @@ body{
     color: var(--cor-letra-padrao);
     font-weight: 400;
     font-size: 14px;
+    width: 9rem;
     
 
 }
 
 
+.corpo__meio2__container2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.corpo__meio2__container2__botao{
+
+    text-decoration: none;
+    margin-top: 1rem;
+    background-color: var(--cor-letra3);
+    color: var(--cor-branca-padrao);
+    width: 129px;
+    height: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: var(--font-padrao);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding:0.5rem 0rem ;
+
+}
 
 
 
