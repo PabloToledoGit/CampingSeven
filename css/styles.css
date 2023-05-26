@@ -264,6 +264,8 @@ body{
     background-color: var(--cor-dos-topos);
     color:var(--cor-branca-padrao);
     margin-top: 1rem;
+    gap: 1rem;
+    padding: 1.5rem;
 }
 
 .finalizacao__contatos{
@@ -271,6 +273,9 @@ body{
     font-size: 1rem;
     font-weight: 400;
     font-family: var(--font-padrao);
+    font-family: var(--font-padrao);
+    font-weight: 700;
+    font-size: 18px;
 
 }
 
@@ -281,6 +286,18 @@ body{
     font-family: var(--font-padrao);
 
 }
+
+.finalizacao__div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    border:4px solid var(--cor-branca-padrao);
+    padding: 1rem;
+}
+
 
 
 
