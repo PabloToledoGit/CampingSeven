@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root{
+
+    --cor-de-fundo: #C4C4C4;
+    --cor-branca-padrao: #FFFFFF;
+    --cor-dos-topos: #002F52;
+    --cor-letra-padrao:#002F52;
+    --cor-letra-2: #ffffff;
+    --cor-letra3:#EB9B00;
+
+    --font-padrao:'Poppins', sans-serif;
+}
+.cabecalho__nav{
+
+    border-bottom:none;
+
+}
+.sobre__meio__titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--cor-branca-padrao);
+    font-family: var(--font-padrao);
+    
+}
+
+.titulo__meio{
+
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--cor-letra3);
+
+    
+}
+
+body{
+
+    background-color: var(--cor-dos-topos);
+}
+
+.sobre__meio__div{
+
+    color:var(--cor-branca-padrao);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.sobre__meio__divtitulo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-bottom: 4px solid var(--cor-branca-padrao);
+    border-top: 4px solid var(--cor-branca-padrao);
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    margin: 1em 0.5rem;
+}
+
+.sobre__meio__div__paragrafo{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20rem;
+}
+
+.paragrafo2{
+
+    margin-top: 1em;
+}
+
+.finalizacao{
+
+    border-top:4px solid var(--cor-branca-padrao);
+}
+
